@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <div>
+      <h2>Google Trends Widget</h2>
+      <p>Copy and paste the following code into your website:</p>
+      <code>
+        &lt;script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3570_RC01/embed_loader.js"&gt;&lt;/script&gt;
+        &lt;script type="text/javascript"&gt;
+          trends.embed.renderExploreWidget("RELATED_TOPICS", {"comparisonItem":[{"geo":"US","time":"today 1-m"}],"category":1190,"property":""}, {"exploreQuery":"cat=1190&date=today%201-m&geo=US&hl=en-GB","guestPath":"https://trends.google.com:443/trends/embed/"});
+        &lt;/script&gt;
+      </code>
+    </div>
+  </body>
+</html>
